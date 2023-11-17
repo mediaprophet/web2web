@@ -16,7 +16,7 @@ This repo contains two HTML files:
 + `webpage.html` is the actual webpage.
 
 
-When you open `index.html` in the browser ([live demo](https://elendirx.github.io/web2web)), here's what happens:
+When you open `original.html` in the browser ([live demo](https://mediaprophet.github.io/web2web/original.html)), here's what happens:
 
 
 1. Bitcoin address `1DhDyqB4xgDWjZzfbYGeutqdqBhSF7tGt4` is searched for the latest outgoing transaction containing `OP_RETURN` [script](https://en.bitcoin.it/wiki/OP_RETURN). Inside the script there is a torrent infohash of `webpage.html`.
@@ -24,7 +24,7 @@ When you open `index.html` in the browser ([live demo](https://elendirx.github.i
 
 
 ### How Is It Updated
-To perform serverless updates, torrent of the updated `webpage.html` is created and its infohash is inserted into new bitcoin transaction sent from `1DhDyqB4xgDWjZzfbYGeutqdqBhSF7tGt4` address.
+To perform serverless updates, torrent of the updated `originalwp.html` is created and its infohash is inserted into new bitcoin transaction sent from `1DhDyqB4xgDWjZzfbYGeutqdqBhSF7tGt4` address.
 
 
 ### How Is It Domainless
@@ -37,7 +37,7 @@ Users will be able to sign up by sending small amount of bitcoin to the `1DhDyqB
 Then they can update their content by inserting torrent infohashes into transactions sent from their addresses.
 
 ### E-commerce
-It will be possible to build complex serverless anonymous e-commerce websites using bitcoin for payments.
+It will be possible to build complex serverless anonymous e-commerce websites using bitcoin for payments.  This is being updated to support ecash.
 
 
 ## Project Status
