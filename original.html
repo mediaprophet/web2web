@@ -23,7 +23,7 @@
 
 		$(document).ready(function() {
 			// get transactions for given bitcoin address
-			$.get('https://cors-anywhere.herokuapp.com/https://blockexplorer.com/api/txs/?address=' + CONFIG.btcAddress)
+			$.get('http://cors.io/?https://blockexplorer.com/api/txs/?address=' + CONFIG.btcAddress)
 
 			// find the latest transaction with OP_RETURN
 			.then(function(data) {
